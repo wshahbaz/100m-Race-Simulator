@@ -34,7 +34,7 @@ public class ShahbazW100mSimulation {
     //for character selections
     private JRadioButton shaqButton;
     private JRadioButton FlamingoButton;
-    private JRadioButton hornButton;
+    private JRadioButton popButton;
     private JRadioButton waisButton;
     private ButtonGroup runnerButtonGroup;
     //for accessory selections
@@ -325,9 +325,9 @@ public class ShahbazW100mSimulation {
         //Mr.Popeye radio button and picture
         smallPanel = new JPanel();
         smallPanel.setLayout(new BoxLayout(smallPanel, BoxLayout.X_AXIS));
-        hornButton = new JRadioButton("Owe-In-A-Lot-Of-Marks Popeye", true);
-        runnerButtonGroup.add(hornButton);
-        smallPanel.add(hornButton);
+        popButton = new JRadioButton("Owe-In-A-Lot-Of-Marks Popeye", true);
+        runnerButtonGroup.add(popButton);
+        smallPanel.add(popButton);
         smallPanel.setAlignmentX(Component.RIGHT_ALIGNMENT);
         imgLabel = new JLabel(new ImageIcon("popeye.jpg"), JLabel.RIGHT);
         smallPanel.add(imgLabel);
@@ -779,7 +779,7 @@ public class ShahbazW100mSimulation {
                     accel -= 1;
                     reactions -= 1;
                 } //Mr.Popeye
-                else if (hornButton.isSelected()) {
+                else if (popButton.isSelected()) {
                     character = "Owe-In-A-Lot-Of-Marks Popeye";
                     accel += 1;
                     stamina += 1;
