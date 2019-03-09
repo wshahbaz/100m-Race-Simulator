@@ -1,5 +1,5 @@
 # 100m-Race-Simulator
-Interactive race calculator with customizable runners and data storage
+Interactive race calculator with customizable runners and data storage.
 
 This Java project allows users to create an indefinite number of runners, with customization of stats and accessories.  
 Users then get the oppurtunity to have their customized runners compete in a simulated 100m race, and their calculated 100m sprint
@@ -9,3 +9,5 @@ Users then get the oppurtunity to have their customized runners compete in a sim
  
  Ultimately in this app, users try to create the optimal 100m sprinter and can compete with their friends to see who understands the 
  fundamentals of 100m sprints more!
+ 
+ This program was developed using the Java Swing and AWT APIs for the graphical interface, while applying Java's dynamic arraylist class to process the organize and process the data.
