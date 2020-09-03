@@ -10,4 +10,4 @@ Users then get the oppurtunity to have their customized runners compete in a sim
  Ultimately in this app, users try to create the optimal 100m sprinter and can compete with their friends to see who understands the 
  fundamentals of 100m sprints more!
  
- This program was developed using the Java Swing and AWT APIs for the graphical interface, while applying Java's dynamic arraylist class to process the organize and process the data.
+ This program was developed using the Java Swing and AWT APIs for the graphical interface, while applying Java's dynamic arraylist class to process and organize the data.
